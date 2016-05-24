@@ -3,11 +3,14 @@ var login = require('facebook-chat-api')
 var low = require('lowdb')
 var storage = require('lowdb/file-sync')
 var db = low('counts.json', { storage })
+var fs = require('fs')
 
 login(credentials.data, handleLogin)
 
 function handleLogin(err, api) {
-    if (err) return console.error(err)
+    if (err) {
+	fs.appendFileSync('log.txt', err)
+    }
 
     api.setOptions({
 	logLevel: "silent"
@@ -19,7 +22,9 @@ function handleLogin(err, api) {
 function handleAPI(api) {
     var cryFace = '\u{1F602}'
     api.listen(function processMessages(err, message) {
-	if (err) return console.error(err)
+	if (err) {
+	    fs.appendFileSync('log.txt', err)
+	}
 
 	var currentCountObj = db('counts').find({ threadID: message.threadID })
 	var currentCount

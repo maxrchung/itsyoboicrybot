@@ -43,4 +43,4 @@ flycheck_*.el
 # projectiles files
 .projectile0;136;0c
 
-credentials.js
+credentials*
