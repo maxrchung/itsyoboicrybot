@@ -45,7 +45,7 @@ function handleAPI(api) {
 	    var msg = { body: currentCount }
 	    api.sendMessage(msg, message.threadID)
 	}
-	else {
+	else if (message.body) {
 	    counter = message.body.split(cryFace).length - 1
 	}
 
