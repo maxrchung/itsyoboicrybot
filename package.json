@@ -1,0 +1,26 @@
+{
+  "name": "crybot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "crybot.js",
+  "dependencies": {
+    "facebook-chat-api": "^1.1.0",
+    "forever": "^0.15.2",
+    "lodash": "^4.13.1",
+    "lowdb": "^0.13.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxrchung/itsyoboicrybot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxrchung/itsyoboicrybot/issues"
+  },
+  "homepage": "https://github.com/maxrchung/itsyoboicrybot#readme"
+}
