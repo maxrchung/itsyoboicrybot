@@ -62,8 +62,12 @@ function handleAPI(api) {
 		    fs.appendFileSync('log.txt', '\n')
 		    fs.appendFileSync('log.txt', err.detail)
 		    fs.appendFileSync('log.txt', '\n')
+		    fs.appendFileSync('log.txt', 'Rerunning bot')
+		    fs.appendFileSync('log.txt', '\n')
 		    state = 'ohgod'
-		    handleAPI(api)
+		    run()
+		    fs.appendFileSync('log.txt', 'After rerunning')
+		    fs.appendFileSync('log.txt', '\n')
 		    return stopListening()
 		}
 	    })
@@ -80,9 +84,13 @@ function handleAPI(api) {
 		    fs.appendFileSync('log.txt', '\n')
 		    fs.appendFileSync('log.txt', err.detail)
 		    fs.appendFileSync('log.txt', '\n')
-		    state = 'ohgod2'
 		    stateData = currentCount
-		    handleAPI(api)
+		    fs.appendFileSync('log.txt', 'Rerunning bot')
+		    fs.appendFileSync('log.txt', '\n')
+		    state = 'ohgod2'
+		    run()
+		    fs.appendFileSync('log.txt', 'After rerunning')
+		    fs.appendFileSync('log.txt', '\n')
 		    return stopListening()
 		}
 	    })
