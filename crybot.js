@@ -16,6 +16,7 @@ run()
 
 function handleLogin(err, api) {
     if (err) {
+	fs.appendFileSync('handleLogin error', '\n')
 	fs.appendFileSync('log.txt', err)
 	fs.appendFileSync('log.txt', '\n')
     }
@@ -31,19 +32,25 @@ function handleAPI(api) {
     var cryFace = '\u{1F602}'
     var stopListening = api.listen(function processMessages(err, message) {
 	if (err) {
+	    fs.appendFileSync('handleAPI error', err)
 	    fs.appendFileSync('log.txt', err)
 	    fs.appendFileSync('log.txt', '\n')
 	}
 
 	if (message) {
 	    var currentCountObj = db.get('counts').find({ threadID: message.threadID }).value()
-	    var currentCount = currentCountObj['count']
+	    var currentCount = 0
+	    if (currentCountObj) {
+		currentCount = currentCountObj['count']
+	    }
 	    var counter = 0
 
 	    if (message.body === '!cry') {
 		api.sendMessage(cryFace, message.threadID, function callback(err, message) {		    
 		    if (err) {
 			fs.appendFileSync('log.txt', '!cry error\n')
+			fs.appendFileSync('log.txt', err)
+			fs.appendFileSync('log.txt', '\n')
 			fs.appendFileSync('log.txt', err.error)
 			fs.appendFileSync('log.txt', '\n')
 			fs.appendFileSync('log.txt', err.detail)
@@ -53,7 +60,7 @@ function handleAPI(api) {
 		    if (Date.now() - checkTime > rebootTime) {
 			checkTime = Date.now()
 			login(credentials.data, function(err, api) {
-			    handleLogin(err, api)
+			    handleAPI(api)
 			    return stopListening()
 			})
 		    }
@@ -76,7 +83,7 @@ function handleAPI(api) {
 		    if (Date.now() - checkTime > rebootTime) {
 			checkTime = Date.now()
 			login(credentials.data, function(err, api) {
-			    handleLogin(err, api)
+			    handleAPI(api)
 			    return stopListening()
 			})
 		    }
@@ -88,12 +95,22 @@ function handleAPI(api) {
 
 	    if (counter > 0) {
 		var update = currentCount + counter
-		db.get('counts')
-		    .chain()
-		    .find({ threadID: message.threadID })
-		    .assign({ count: update })
-		    .value()
+
+		if (currentCount == 0) {
+		    db.get('counts')
+			.chain()
+			.push({ threadID: message.threadID, count: update })
+			.value()
+		}
+		else {
+		    db.get('counts')
+			.chain()
+			.find({ threadID: message.threadID })
+			.assign({ count: update })
+			.value()
+		}
 	    }
+
 	}
 
 	if (Date.now() - checkTime > rebootTime) {
