@@ -8,6 +8,54 @@ var fs = require('fs')
 var checkTime = Date.now()
 var rebootTime = 3600000
 
+const Discord = require("discord.js");
+const client = new Discord.Client();
+
+var cryFace = '\u{1F602}'
+
+client.on('ready', () => {
+  console.log(`Logged in as ${client.user.username}!`);
+});
+
+client.on('message', msg => {
+    var currentCountObj = db.get('counts').find({ threadID: msg.guild.id }).value()
+    var currentCount = 0
+    if (currentCountObj) {
+	currentCount = currentCountObj['count']
+    }
+    var counter = 0
+
+    if (msg.content === '!cry') {
+	msg.channel.sendMessage(cryFace)
+	counter = 1
+    }
+    else if (msg.content === '!count') {
+	msg.channel.sendMessage(currentCount)
+    }
+    else if (msg.author.id !== client.user.id) {
+	counter = msg.content.split(cryFace).length - 1
+    }
+    if (counter > 0) {
+	var update = currentCount + counter
+
+	if (currentCount == 0) {
+	    db.get('counts')
+		.chain()
+		.push({ threadID: msg.guild.id, count: update })
+		.value()
+	}
+	else {
+	    db.get('counts')
+		.chain()
+		.find({ threadID: msg.guild.id })
+		.assign({ count: update })
+		.value()
+	}
+    }
+});
+
+client.login(credentials.token);
+
 function run() {
     login(credentials.data, handleLogin)
 }
@@ -29,7 +77,6 @@ function handleLogin(err, api) {
 }
 
 function handleAPI(api) {
-    var cryFace = '\u{1F602}'
     var stopListening = api.listen(function processMessages(err, message) {
 	if (err) {
 	    fs.appendFileSync('handleAPI error', err)
@@ -110,7 +157,6 @@ function handleAPI(api) {
 			.value()
 		}
 	    }
-
 	}
 
 	if (Date.now() - checkTime > rebootTime) {

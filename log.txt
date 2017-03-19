@@ -238,4 +238,185 @@ message found
 [object Object]message found
 [object Object]message found
 [object Object]message found
-[object Object]
+[object Object]Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: unexpected end of file
+Error: ESOCKETTIMEDOUT
+Error: ESOCKETTIMEDOUT
+Error: socket hang up
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: parseAndCheckLogin got status code: 404. Bailing out of trying to parse response.
+Error: socket hang up
+Error: parseAndCheckLogin got status code: 404. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 404. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 404. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 404. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 404. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 404. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 404. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 404. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 404. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 404. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 404. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 404. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 404. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 404. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 404. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 404. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 404. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 404. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 404. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: socket hang up
+Error: connect ECONNREFUSED 31.13.70.1:443
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 404. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: ETIMEDOUT
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: read ECONNRESET
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: ESOCKETTIMEDOUT
+Error: read ECONNRESET
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: socket hang up
+Error: read ECONNRESET
+Error: connect ECONNREFUSED 31.13.77.6:443
+Error: connect ECONNREFUSED 31.13.77.36:443
+Error: connect ECONNREFUSED 31.13.77.36:443
+Error: read ECONNRESET
+Error: socket hang up
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: socket hang up
+Error: connect ECONNREFUSED 157.240.11.17:443
+Error: socket hang up
+Error: connect ECONNREFUSED 157.240.11.17:443
+Error: socket hang up
+Error: connect ECONNREFUSED 31.13.77.6:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND www.facebook.com www.facebook.com:443
+Error: getaddrinfo ENOTFOUND www.facebook.com www.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: ESOCKETTIMEDOUT
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: getaddrinfo ENOTFOUND 0-edge-chat.facebook.com 0-edge-chat.facebook.com:443
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: ETIMEDOUT
+Error: socket hang up
+Error: ETIMEDOUT
+Error: ETIMEDOUT
+Error: ESOCKETTIMEDOUT
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
+Error: parseAndCheckLogin got status code: 400. Bailing out of trying to parse response.
